@@ -47,7 +47,7 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_MESSAGE
-          value: "Hi Greeting from AKSS"
+          value: "Hi Greeting from AKS"
         livenessProbe:
           httpGet:
             path: /healthz
